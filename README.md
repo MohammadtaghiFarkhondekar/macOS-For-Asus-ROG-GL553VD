@@ -2,14 +2,16 @@
 ----------------------------------------------
 1. Only use clover folder for boot 
 2.  For install Trackpad -->
-delete = AppleIntelLpssI2CController.kext + AppleIntelLpssI2C.kext in S/L/E
+    - delete kexts in S/L/E =
+        - AppleIntelLpssI2CController.kext 
+        - AppleIntelLpssI2C.kext in 
     - Open terminal and run=> 
 ```
 sudo kextcache -i /
 sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 ```
 3. for install sound -->
-install VoodooHDA = UEFI mode
+    - install VoodooHDA = UEFI mode
 - [x]  reboot
 
 *Thank a lot :*
