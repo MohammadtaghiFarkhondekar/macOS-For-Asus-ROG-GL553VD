@@ -19,7 +19,7 @@
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixHDA</key>
-				<false/>
+				<true/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
@@ -99,20 +99,6 @@
 					<key>Replace</key>
 					<data>
 					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
 					</data>
 				</dict>
 				<dict>
@@ -197,7 +183,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1</string>
+		<string>dart=0 nv_disable=1 alcid=15</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
@@ -209,9 +195,9 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>8</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<false/>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -264,65 +250,11 @@
 				b25ib2FyZC0xAA==
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>layout-id=3</string>
-				<key>Device</key>
-				<string>HDA</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>layout-id</string>
-				<key>Value</key>
-				<data>
-				AwAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject "name" as (data)"#display" to disable graphics drivers on NVidia</string>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>name</string>
-				<key>Value</key>
-				<data>
-				I2Rpc3BsYXkA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject "IOName" as "#display" to disable graphics drivers on NVidia</string>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>IOName</string>
-				<key>Value</key>
-				<string>#display</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject bogus class-code to prevent graphics drivers loading for NVidia</string>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>class-code</string>
-				<key>Value</key>
-				<data>
-				/////w==
-				</data>
-			</dict>
 		</array>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>1</integer>
+			<integer>15</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -331,6 +263,24 @@
 			<key>#Kaby Lake-Comment</key>
 			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
 		</dict>
+		<key>HDMIInjection</key>
+		<true/>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAwA==
+				</data>
+			</dict>
+		</dict>
+		<key>SetIntelBacklight</key>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -475,24 +425,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RiV1VCUwNHgA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleBacklight</string>
-				<key>Replace</key>
-				<data>
-				RiV1VHh4eHgA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>change 15 port limit to 26 in XHCI kext</string>
 				<key>Disabled</key>
 				<false/>
@@ -569,24 +501,6 @@
 				<key>Replace</key>
 				<data>
 				AAAAAAAAAAAAAAAAAAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Unsupported_Audio_Device_ID_Kaby_Lake</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				PXCh
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>
-				PfCi
 				</data>
 			</dict>
 		</array>
