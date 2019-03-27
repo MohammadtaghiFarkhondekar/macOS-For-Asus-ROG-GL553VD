@@ -22,6 +22,5 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 ----------------------------------------------
 - https://github.com/alexandred/VoodooI2C
 - https://github.com/acidanthera
-- https://github.com/chris1111/VoodooHDA-2.9.0-Clover-V12
 - https://github.com/RehabMan
 - https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/
