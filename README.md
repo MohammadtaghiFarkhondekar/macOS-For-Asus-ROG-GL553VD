@@ -10,9 +10,8 @@
 sudo kextcache -i /
 sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 ```
-3. for install sound -->
-    - install VoodooHDA = UEFI mode
-- [x]  reboot
+3. reboot
+
 
 *Thank a lot :*
 ----------------------------------------------
