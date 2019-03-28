@@ -16,6 +16,7 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 *Thank a lot :*
 ----------------------------------------------
 - https://www.hackintosh-forum.de/user/38895-anonymous-writer/
+- https://www.hackintosh-forum.de/user/15790-macpeet/
 - https://www.hackintosh-forum.de/
 
 *Source*
