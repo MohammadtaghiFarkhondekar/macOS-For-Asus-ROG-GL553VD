@@ -183,11 +183,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 alcid=15</string>
+		<string>dart=0 nv_disable=1 alcid=16</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
-		<key>DefaultVolume</key>
-		<string>Mac os by DARKBlUECODE</string>
 		<key>NeverDoRecovery</key>
 		<true/>
 		<key>NeverHibernate</key>
@@ -254,7 +252,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>15</integer>
+			<integer>16</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -264,7 +262,7 @@
 			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
 		</dict>
 		<key>HDMIInjection</key>
-		<true/>
+		<false/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
