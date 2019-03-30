@@ -174,10 +174,12 @@
 				<key>PStates</key>
 				<true/>
 				<key>PluginType</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
+			<key>PluginType</key>
+			<string>1</string>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -206,13 +208,13 @@
 		<key>C6</key>
 		<true/>
 		<key>HWPEnable</key>
-		<false/>
+		<true/>
 		<key>QEMU</key>
 		<false/>
 		<key>TurboDisable</key>
 		<false/>
 		<key>UseARTFrequency</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>ConfigName</key>
 	<string></string>
