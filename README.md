@@ -1,5 +1,5 @@
 **Guid for install macOS Mojave on Asus GL553VD**
-![cover](https://github.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD/blob/master/cover.jpg)
+![cover](https://raw.githubusercontent.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD/master/cover.jpg)
 ----------------------------------------------
 1. Only use clover folder for boot 
 2.  For install Trackpad -->
