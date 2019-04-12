@@ -13,6 +13,9 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 ```
 3. reboot
 
+*video of Installing training and review Mac OS Mojave on ASUS ROG GL553VD*
+----------------------------------------------
+[![](http://img.youtube.com/vi/iby0x87ztog/0.jpg)](http://www.youtube.com/watch?v=iby0x87ztog "")
 
 *Thank a lot :*
 ----------------------------------------------
