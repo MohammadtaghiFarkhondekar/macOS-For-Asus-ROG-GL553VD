@@ -47,20 +47,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					SU1FSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change XHCI to XHC</string>
 					<key>Disabled</key>
 					<false/>
@@ -157,6 +143,20 @@
 					WE9TSQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HECI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SEVDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					SU1FSQ==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
@@ -185,7 +185,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 alcid=16</string>
+		<string>dart=0 alcid=16 disable-external-gpu</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>NeverDoRecovery</key>
@@ -323,23 +323,22 @@
 				</dict>
 			</array>
 		</dict>
+		<key>EmbeddedThemeType</key>
+		<string>Dark</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
 		</array>
+		<key>Language</key>
+		<string>en:0</string>
 		<key>Scan</key>
-		<dict>
-			<key>Entries</key>
-			<true/>
-			<key>Tool</key>
-			<true/>
-		</dict>
+		<true/>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
-		<string>Mojave</string>
+		<string>embedded</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -374,8 +373,6 @@
 		<true/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
-		<key>ForceKextsToLoad</key>
-		<array/>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelLapic</key>
@@ -520,8 +517,6 @@
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
 		<string>MBP143.88Z.F000.B00.1809280842</string>
-		<key>Board-ID</key>
-		<string>Mac-551B86E5744E2388</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardType</key>
