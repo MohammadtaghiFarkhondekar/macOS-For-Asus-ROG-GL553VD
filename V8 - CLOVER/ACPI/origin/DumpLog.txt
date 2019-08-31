@@ -1,0 +1,128 @@
+8:778  0:029  Found UEFI Acpi 2.0 RSDP at 7AAA3000
+8:778  0:000  Saving ACPI tables from RSDP 7AAA3000 to EFI\CLOVER\ACPI\origin ...
+8:778  0:000   7AAA3000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+8:778  0:000    (Xsdt: 7AAA30B8, Rsdt: 7AAA3028)
+8:778  0:000    7AAA30B8: 'XSDT', 'Notebook', Rev: 1, Len: 236
+8:778  0:000    7AAA3028: 'RSDT', 'Notebook', Rev: 1, Len: 136
+8:778  0:000    Tables in Xsdt: 25
+8:778  0:000    0. 7AAD2640: 'FACP', 'Notebook', Rev: 6, Len: 276
+8:778  0:000        (Dsdt: 7AAA3230, Facs: 7AF0AC40, XDsdt: 7AAA3230, XFacs: 0)
+8:778  0:000        7AAA3230: 'DSDT', 'Notebook', Rev: 2, Len: 193546
+8:781  0:002        7AF0AC40: 'FACS', Ver: 2, Len: 64
+8:781  0:000    1. 7AAD2758: 'APIC', 'Notebook', Rev: 3, Len: 188
+8:781  0:000    2. 7AAD2818: 'FPDT', 'Notebook', Rev: 1, Len: 68
+8:781  0:000    3. 7AAD2860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+8:781  0:000    4. 7AAD28A0: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+8:781  0:000    5. 7AAD2B98: 'FIDT', 'Notebook', Rev: 1, Len: 156
+8:781  0:000    6. 7AAD2C38: 'SSDT', 'SaSsdt', Rev: 2, Len: 13323
+8:781  0:000    7. 7AAD6048: 'SSDT', 'PegSsdt', Rev: 2, Len: 10451
+8:781  0:000    8. 7AAD8920: 'HPET', 'KBL', Rev: 1, Len: 56
+8:781  0:000    9. 7AAD8958: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2442
+8:781  0:000    10. 7AAD92E8: 'UEFI', 'EDK2', Rev: 1, Len: 66
+8:781  0:000    11. 7AAD9330: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:781  0:000    12. 7AADA210: 'ECDT', 'OEM', Rev: 1, Len: 193
+8:781  0:000    13. 7AADA2D8: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:781  0:000    14. 7AADA370: 'WSMT', 'KBL', Rev: 1, Len: 40
+8:781  0:000    15. 7AADA398: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:781  0:000    16. 7AADA638: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+8:781  0:000    17. 7AADD640: 'SSDT', 'zpodd', Rev: 2, Len: 653
+8:781  0:000    18. 7AADD8D0: 'DBGP', '', Rev: 1, Len: 52
+8:781  0:000    19. 7AADD908: 'DBG2', '', Rev: 0, Len: 84
+8:781  0:000    20. 7AADD960: 'BGRT', 'Notebook', Rev: 1, Len: 56
+8:781  0:000    21. 7AADD998: 'SSDT', 'SgPeg', Rev: 2, Len: 180
+8:781  0:000    22. 7AADDA50: 'NHLT', 'EDK2', Rev: 0, Len: 45
+8:781  0:000    23. 7AADDA80: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+8:781  0:000    24. 7AADDAB8: 'SSDT', 'OptTabl', Rev: 1, Len: 7430
+8:781  0:000    Tables in Rsdt: 25
+8:781  0:000    0. 7AAA31A8: 'FACP', 'Notebook', Rev: 2, Len: 132
+8:781  0:000        (Dsdt: 7AAA3230, Facs: 7AF0AC00)
+8:781  0:000        7AAA3230: 'DSDT', 'Notebook', Rev: 2, Len: 193546
+8:784  0:002        7AF0AC00: 'FACS', Ver: 0, Len: 64
+8:784  0:000    1. 7AAD2758: 'APIC', 'Notebook', Rev: 3, Len: 188
+8:784  0:000    2. 7AAD2818: 'FPDT', 'Notebook', Rev: 1, Len: 68
+8:784  0:000    3. 7AAD2860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+8:784  0:000    4. 7AAD28A0: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+8:784  0:000    5. 7AAD2B98: 'FIDT', 'Notebook', Rev: 1, Len: 156
+8:784  0:000    6. 7AAD2C38: 'SSDT', 'SaSsdt', Rev: 2, Len: 13323
+8:784  0:000    7. 7AAD6048: 'SSDT', 'PegSsdt', Rev: 2, Len: 10451
+8:784  0:000    8. 7AAD8920: 'HPET', 'KBL', Rev: 1, Len: 56
+8:784  0:000    9. 7AAD8958: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2442
+8:784  0:000    10. 7AAD92E8: 'UEFI', 'EDK2', Rev: 1, Len: 66
+8:784  0:000    11. 7AAD9330: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:784  0:000    12. 7AADA210: 'ECDT', 'OEM', Rev: 1, Len: 193
+8:784  0:000    13. 7AADA2D8: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:784  0:000    14. 7AADA370: 'WSMT', 'KBL', Rev: 1, Len: 40
+8:784  0:000    15. 7AADA398: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:784  0:000    16. 7AADA638: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+8:784  0:000    17. 7AADD640: 'SSDT', 'zpodd', Rev: 2, Len: 653
+8:784  0:000    18. 7AADD8D0: 'DBGP', '', Rev: 1, Len: 52
+8:784  0:000    19. 7AADD908: 'DBG2', '', Rev: 0, Len: 84
+8:784  0:000    20. 7AADD960: 'BGRT', 'Notebook', Rev: 1, Len: 56
+8:784  0:000    21. 7AADD998: 'SSDT', 'SgPeg', Rev: 2, Len: 180
+8:784  0:000    22. 7AADDA50: 'NHLT', 'EDK2', Rev: 0, Len: 45
+8:784  0:000    23. 7AADDA80: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+8:784  0:000    24. 7AADDAB8: 'SSDT', 'OptTabl', Rev: 1, Len: 7430
+8:784  0:000  Found UEFI Acpi 1.0 RSDP at 7AAA3000
+8:784  0:000  Printing ACPI tables from RSDP 7AAA3000 ...
+8:784  0:000   7AAA3000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+8:784  0:000    (Xsdt: 7AAA30B8, Rsdt: 7AAA3028)
+8:784  0:000    7AAA30B8: 'XSDT', 'Notebook', Rev: 1, Len: 236
+8:784  0:000    7AAA3028: 'RSDT', 'Notebook', Rev: 1, Len: 136
+8:784  0:000    Tables in Xsdt: 25
+8:784  0:000    0. 7AAD2640: 'FACP', 'Notebook', Rev: 6, Len: 276
+8:784  0:000        (Dsdt: 7AAA3230, Facs: 7AF0AC40, XDsdt: 7AAA3230, XFacs: 0)
+8:784  0:000        7AAA3230: 'DSDT', 'Notebook', Rev: 2, Len: 193546
+8:787  0:002        7AF0AC40: 'FACS', Ver: 2, Len: 64
+8:787  0:000    1. 7AAD2758: 'APIC', 'Notebook', Rev: 3, Len: 188
+8:787  0:000    2. 7AAD2818: 'FPDT', 'Notebook', Rev: 1, Len: 68
+8:787  0:000    3. 7AAD2860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+8:787  0:000    4. 7AAD28A0: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+8:787  0:000    5. 7AAD2B98: 'FIDT', 'Notebook', Rev: 1, Len: 156
+8:787  0:000    6. 7AAD2C38: 'SSDT', 'SaSsdt', Rev: 2, Len: 13323
+8:787  0:000    7. 7AAD6048: 'SSDT', 'PegSsdt', Rev: 2, Len: 10451
+8:787  0:000    8. 7AAD8920: 'HPET', 'KBL', Rev: 1, Len: 56
+8:787  0:000    9. 7AAD8958: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2442
+8:787  0:000    10. 7AAD92E8: 'UEFI', 'EDK2', Rev: 1, Len: 66
+8:787  0:000    11. 7AAD9330: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:787  0:000    12. 7AADA210: 'ECDT', 'OEM', Rev: 1, Len: 193
+8:787  0:000    13. 7AADA2D8: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:787  0:000    14. 7AADA370: 'WSMT', 'KBL', Rev: 1, Len: 40
+8:787  0:000    15. 7AADA398: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:787  0:000    16. 7AADA638: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+8:787  0:000    17. 7AADD640: 'SSDT', 'zpodd', Rev: 2, Len: 653
+8:787  0:000    18. 7AADD8D0: 'DBGP', '', Rev: 1, Len: 52
+8:787  0:000    19. 7AADD908: 'DBG2', '', Rev: 0, Len: 84
+8:787  0:000    20. 7AADD960: 'BGRT', 'Notebook', Rev: 1, Len: 56
+8:787  0:000    21. 7AADD998: 'SSDT', 'SgPeg', Rev: 2, Len: 180
+8:787  0:000    22. 7AADDA50: 'NHLT', 'EDK2', Rev: 0, Len: 45
+8:787  0:000    23. 7AADDA80: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+8:787  0:000    24. 7AADDAB8: 'SSDT', 'OptTabl', Rev: 1, Len: 7430
+8:787  0:000    Tables in Rsdt: 25
+8:787  0:000    0. 7AAA31A8: 'FACP', 'Notebook', Rev: 2, Len: 132
+8:787  0:000        (Dsdt: 7AAA3230, Facs: 7AF0AC00)
+8:787  0:000        7AAA3230: 'DSDT', 'Notebook', Rev: 2, Len: 193546
+8:790  0:002        7AF0AC00: 'FACS', Ver: 0, Len: 64
+8:790  0:000    1. 7AAD2758: 'APIC', 'Notebook', Rev: 3, Len: 188
+8:790  0:000    2. 7AAD2818: 'FPDT', 'Notebook', Rev: 1, Len: 68
+8:790  0:000    3. 7AAD2860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+8:790  0:000    4. 7AAD28A0: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+8:790  0:000    5. 7AAD2B98: 'FIDT', 'Notebook', Rev: 1, Len: 156
+8:790  0:000    6. 7AAD2C38: 'SSDT', 'SaSsdt', Rev: 2, Len: 13323
+8:790  0:000    7. 7AAD6048: 'SSDT', 'PegSsdt', Rev: 2, Len: 10451
+8:790  0:000    8. 7AAD8920: 'HPET', 'KBL', Rev: 1, Len: 56
+8:790  0:000    9. 7AAD8958: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2442
+8:790  0:000    10. 7AAD92E8: 'UEFI', 'EDK2', Rev: 1, Len: 66
+8:790  0:000    11. 7AAD9330: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:790  0:000    12. 7AADA210: 'ECDT', 'OEM', Rev: 1, Len: 193
+8:790  0:000    13. 7AADA2D8: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:790  0:000    14. 7AADA370: 'WSMT', 'KBL', Rev: 1, Len: 40
+8:790  0:000    15. 7AADA398: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:790  0:000    16. 7AADA638: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+8:790  0:000    17. 7AADD640: 'SSDT', 'zpodd', Rev: 2, Len: 653
+8:790  0:000    18. 7AADD8D0: 'DBGP', '', Rev: 1, Len: 52
+8:790  0:000    19. 7AADD908: 'DBG2', '', Rev: 0, Len: 84
+8:790  0:000    20. 7AADD960: 'BGRT', 'Notebook', Rev: 1, Len: 56
+8:790  0:000    21. 7AADD998: 'SSDT', 'SgPeg', Rev: 2, Len: 180
+8:790  0:000    22. 7AADDA50: 'NHLT', 'EDK2', Rev: 0, Len: 45
+8:790  0:000    23. 7AADDA80: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+8:790  0:000    24. 7AADDAB8: 'SSDT', 'OptTabl', Rev: 1, Len: 7430
