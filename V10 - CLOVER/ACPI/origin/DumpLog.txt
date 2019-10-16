@@ -1,0 +1,132 @@
+39:232  0:131  Found UEFI Acpi 2.0 RSDP at 7AAA4000
+39:232  0:000  Saving ACPI tables from RSDP 7AAA4000 to EFI\CLOVER\ACPI\origin ...
+39:232  0:000   7AAA4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+39:232  0:000    (Xsdt: 7AAA40B8, Rsdt: 7AAA4028)
+39:232  0:000    7AAA40B8: 'XSDT', 'Notebook', Rev: 1, Len: 244
+39:232  0:000    7AAA4028: 'RSDT', 'Notebook', Rev: 1, Len: 140
+39:232  0:000    Tables in Xsdt: 26
+39:232  0:000    0. 7AAD3650: 'FACP', 'Notebook', Rev: 6, Len: 276
+39:232  0:000        (Dsdt: 7AAA4240, Facs: 7AF0BC40, XDsdt: 7AAA4240, XFacs: 0)
+39:232  0:000        7AAA4240: 'DSDT', 'Notebook', Rev: 2, Len: 193546
+39:235  0:003        7AF0BC40: 'FACS', Ver: 2, Len: 64
+39:235  0:000    1. 7AAD3768: 'APIC', 'Notebook', Rev: 3, Len: 188
+39:236  0:000    2. 7AAD3828: 'FPDT', 'Notebook', Rev: 1, Len: 68
+39:236  0:000    3. 7AAD3870: 'MCFG', 'Notebook', Rev: 1, Len: 60
+39:236  0:000    4. 7AAD38B0: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+39:236  0:000    5. 7AAD3BA8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+39:236  0:000    6. 7AAD3C48: 'SSDT', 'SaSsdt', Rev: 2, Len: 13323
+39:236  0:000    7. 7AAD7058: 'SSDT', 'PegSsdt', Rev: 2, Len: 10451
+39:236  0:000    8. 7AAD9930: 'HPET', 'KBL', Rev: 1, Len: 56
+39:236  0:000    9. 7AAD9968: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2442
+39:236  0:000    10. 7AADA2F8: 'UEFI', 'EDK2', Rev: 1, Len: 66
+39:236  0:000    11. 7AADA340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+39:236  0:000    12. 7AADB220: 'ECDT', 'OEM', Rev: 1, Len: 193
+39:236  0:000    13. 7AADB2E8: 'LPIT', 'KBL', Rev: 1, Len: 148
+39:236  0:000    14. 7AADB380: 'WSMT', 'KBL', Rev: 1, Len: 40
+39:236  0:000    15. 7AADB3A8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+39:236  0:000    16. 7AADB648: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+39:236  0:000    17. 7AADE650: 'SSDT', 'zpodd', Rev: 2, Len: 653
+39:236  0:000    18. 7AADE8E0: 'DBGP', '', Rev: 1, Len: 52
+39:236  0:000    19. 7AADE918: 'DBG2', '', Rev: 0, Len: 84
+39:236  0:000    20. 7AADE970: 'BGRT', 'Notebook', Rev: 1, Len: 56
+39:236  0:000    21. 7AADE9A8: 'SSDT', 'SgPeg', Rev: 2, Len: 180
+39:236  0:000    22. 7AADEA60: 'DMAR', 'KBL', Rev: 1, Len: 204
+39:236  0:000    23. 7AADEB30: 'NHLT', 'EDK2', Rev: 0, Len: 45
+39:236  0:000    24. 7AADEB60: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+39:236  0:000    25. 7AADEB98: 'SSDT', 'OptTabl', Rev: 1, Len: 7430
+39:236  0:000    Tables in Rsdt: 26
+39:236  0:000    0. 7AAA41B8: 'FACP', 'Notebook', Rev: 2, Len: 132
+39:236  0:000        (Dsdt: 7AAA4240, Facs: 7AF0BC00)
+39:236  0:000        7AAA4240: 'DSDT', 'Notebook', Rev: 2, Len: 193546
+39:239  0:003        7AF0BC00: 'FACS', Ver: 0, Len: 64
+39:239  0:000    1. 7AAD3768: 'APIC', 'Notebook', Rev: 3, Len: 188
+39:239  0:000    2. 7AAD3828: 'FPDT', 'Notebook', Rev: 1, Len: 68
+39:239  0:000    3. 7AAD3870: 'MCFG', 'Notebook', Rev: 1, Len: 60
+39:239  0:000    4. 7AAD38B0: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+39:239  0:000    5. 7AAD3BA8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+39:239  0:000    6. 7AAD3C48: 'SSDT', 'SaSsdt', Rev: 2, Len: 13323
+39:239  0:000    7. 7AAD7058: 'SSDT', 'PegSsdt', Rev: 2, Len: 10451
+39:239  0:000    8. 7AAD9930: 'HPET', 'KBL', Rev: 1, Len: 56
+39:239  0:000    9. 7AAD9968: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2442
+39:239  0:000    10. 7AADA2F8: 'UEFI', 'EDK2', Rev: 1, Len: 66
+39:239  0:000    11. 7AADA340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+39:239  0:000    12. 7AADB220: 'ECDT', 'OEM', Rev: 1, Len: 193
+39:239  0:000    13. 7AADB2E8: 'LPIT', 'KBL', Rev: 1, Len: 148
+39:239  0:000    14. 7AADB380: 'WSMT', 'KBL', Rev: 1, Len: 40
+39:239  0:000    15. 7AADB3A8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+39:239  0:000    16. 7AADB648: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+39:239  0:000    17. 7AADE650: 'SSDT', 'zpodd', Rev: 2, Len: 653
+39:239  0:000    18. 7AADE8E0: 'DBGP', '', Rev: 1, Len: 52
+39:239  0:000    19. 7AADE918: 'DBG2', '', Rev: 0, Len: 84
+39:239  0:000    20. 7AADE970: 'BGRT', 'Notebook', Rev: 1, Len: 56
+39:239  0:000    21. 7AADE9A8: 'SSDT', 'SgPeg', Rev: 2, Len: 180
+39:239  0:000    22. 7AADEA60: 'DMAR', 'KBL', Rev: 1, Len: 204
+39:239  0:000    23. 7AADEB30: 'NHLT', 'EDK2', Rev: 0, Len: 45
+39:239  0:000    24. 7AADEB60: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+39:239  0:000    25. 7AADEB98: 'SSDT', 'OptTabl', Rev: 1, Len: 7430
+39:239  0:000  Found UEFI Acpi 1.0 RSDP at 7AAA4000
+39:239  0:000  Printing ACPI tables from RSDP 7AAA4000 ...
+39:239  0:000   7AAA4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+39:239  0:000    (Xsdt: 7AAA40B8, Rsdt: 7AAA4028)
+39:239  0:000    7AAA40B8: 'XSDT', 'Notebook', Rev: 1, Len: 244
+39:239  0:000    7AAA4028: 'RSDT', 'Notebook', Rev: 1, Len: 140
+39:239  0:000    Tables in Xsdt: 26
+39:239  0:000    0. 7AAD3650: 'FACP', 'Notebook', Rev: 6, Len: 276
+39:239  0:000        (Dsdt: 7AAA4240, Facs: 7AF0BC40, XDsdt: 7AAA4240, XFacs: 0)
+39:239  0:000        7AAA4240: 'DSDT', 'Notebook', Rev: 2, Len: 193546
+39:243  0:003        7AF0BC40: 'FACS', Ver: 2, Len: 64
+39:243  0:000    1. 7AAD3768: 'APIC', 'Notebook', Rev: 3, Len: 188
+39:243  0:000    2. 7AAD3828: 'FPDT', 'Notebook', Rev: 1, Len: 68
+39:243  0:000    3. 7AAD3870: 'MCFG', 'Notebook', Rev: 1, Len: 60
+39:243  0:000    4. 7AAD38B0: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+39:243  0:000    5. 7AAD3BA8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+39:243  0:000    6. 7AAD3C48: 'SSDT', 'SaSsdt', Rev: 2, Len: 13323
+39:243  0:000    7. 7AAD7058: 'SSDT', 'PegSsdt', Rev: 2, Len: 10451
+39:243  0:000    8. 7AAD9930: 'HPET', 'KBL', Rev: 1, Len: 56
+39:243  0:000    9. 7AAD9968: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2442
+39:243  0:000    10. 7AADA2F8: 'UEFI', 'EDK2', Rev: 1, Len: 66
+39:243  0:000    11. 7AADA340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+39:243  0:000    12. 7AADB220: 'ECDT', 'OEM', Rev: 1, Len: 193
+39:243  0:000    13. 7AADB2E8: 'LPIT', 'KBL', Rev: 1, Len: 148
+39:243  0:000    14. 7AADB380: 'WSMT', 'KBL', Rev: 1, Len: 40
+39:243  0:000    15. 7AADB3A8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+39:243  0:000    16. 7AADB648: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+39:243  0:000    17. 7AADE650: 'SSDT', 'zpodd', Rev: 2, Len: 653
+39:243  0:000    18. 7AADE8E0: 'DBGP', '', Rev: 1, Len: 52
+39:243  0:000    19. 7AADE918: 'DBG2', '', Rev: 0, Len: 84
+39:243  0:000    20. 7AADE970: 'BGRT', 'Notebook', Rev: 1, Len: 56
+39:243  0:000    21. 7AADE9A8: 'SSDT', 'SgPeg', Rev: 2, Len: 180
+39:243  0:000    22. 7AADEA60: 'DMAR', 'KBL', Rev: 1, Len: 204
+39:243  0:000    23. 7AADEB30: 'NHLT', 'EDK2', Rev: 0, Len: 45
+39:243  0:000    24. 7AADEB60: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+39:243  0:000    25. 7AADEB98: 'SSDT', 'OptTabl', Rev: 1, Len: 7430
+39:243  0:000    Tables in Rsdt: 26
+39:243  0:000    0. 7AAA41B8: 'FACP', 'Notebook', Rev: 2, Len: 132
+39:243  0:000        (Dsdt: 7AAA4240, Facs: 7AF0BC00)
+39:243  0:000        7AAA4240: 'DSDT', 'Notebook', Rev: 2, Len: 193546
+39:246  0:003        7AF0BC00: 'FACS', Ver: 0, Len: 64
+39:246  0:000    1. 7AAD3768: 'APIC', 'Notebook', Rev: 3, Len: 188
+39:246  0:000    2. 7AAD3828: 'FPDT', 'Notebook', Rev: 1, Len: 68
+39:246  0:000    3. 7AAD3870: 'MCFG', 'Notebook', Rev: 1, Len: 60
+39:246  0:000    4. 7AAD38B0: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+39:246  0:000    5. 7AAD3BA8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+39:246  0:000    6. 7AAD3C48: 'SSDT', 'SaSsdt', Rev: 2, Len: 13323
+39:246  0:000    7. 7AAD7058: 'SSDT', 'PegSsdt', Rev: 2, Len: 10451
+39:246  0:000    8. 7AAD9930: 'HPET', 'KBL', Rev: 1, Len: 56
+39:246  0:000    9. 7AAD9968: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2442
+39:246  0:000    10. 7AADA2F8: 'UEFI', 'EDK2', Rev: 1, Len: 66
+39:246  0:000    11. 7AADA340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+39:246  0:000    12. 7AADB220: 'ECDT', 'OEM', Rev: 1, Len: 193
+39:246  0:000    13. 7AADB2E8: 'LPIT', 'KBL', Rev: 1, Len: 148
+39:246  0:000    14. 7AADB380: 'WSMT', 'KBL', Rev: 1, Len: 40
+39:246  0:000    15. 7AADB3A8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+39:246  0:000    16. 7AADB648: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+39:246  0:000    17. 7AADE650: 'SSDT', 'zpodd', Rev: 2, Len: 653
+39:246  0:000    18. 7AADE8E0: 'DBGP', '', Rev: 1, Len: 52
+39:246  0:000    19. 7AADE918: 'DBG2', '', Rev: 0, Len: 84
+39:246  0:000    20. 7AADE970: 'BGRT', 'Notebook', Rev: 1, Len: 56
+39:246  0:000    21. 7AADE9A8: 'SSDT', 'SgPeg', Rev: 2, Len: 180
+39:246  0:000    22. 7AADEA60: 'DMAR', 'KBL', Rev: 1, Len: 204
+39:246  0:000    23. 7AADEB30: 'NHLT', 'EDK2', Rev: 0, Len: 45
+39:246  0:000    24. 7AADEB60: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+39:246  0:000    25. 7AADEB98: 'SSDT', 'OptTabl', Rev: 1, Len: 7430
