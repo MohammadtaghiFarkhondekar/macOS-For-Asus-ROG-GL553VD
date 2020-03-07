@@ -1,18 +1,13 @@
-**Guid for install macOS Mojave on Asus GL553VD**
+**Guid for installing macOS (10.12+ up to 10.15.x) on Asus GL553VD**
 ![cover](https://raw.githubusercontent.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD/master/cover.jpg)
 ----------------------------------------------
-1. Only use clover folder for boot 
-2.  For install Trackpad -->
-- delete kexts in S/L/E =
-- AppleIntelLpssI2CController.kext 
-- AppleIntelLpssI2C.kext in 
-- Open terminal and run=> 
+1. After installing open terminal and run this Command=> 
 ```
 sudo kextcache -i /
 sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 ```
-3. reboot
-4. For using Asus Aura Core keyboard you can use https://github.com/hieplpvip/macrogaura/
+2. reboot
+3. For using Asus Aura Core keyboard you can use https://github.com/hieplpvip/macrogaura/
 
 
 *video of Installing training and review Mac OS Mojave on ASUS ROG GL553VD*
