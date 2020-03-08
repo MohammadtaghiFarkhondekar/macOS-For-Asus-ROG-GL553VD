@@ -1,4 +1,4 @@
-**Guid for installing macOS (10.12+ up to 10.15.x) on Asus GL553VD**
+**Guid for installing macOS on Asus GL553VD**
 ![cover](https://raw.githubusercontent.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD/master/img/cover-v2.jpg)
 ----------------------------------------------
 1. After installing open terminal and run this Command=> 
@@ -19,6 +19,7 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 | Display   | FHD (16:9) (1920x1080) 15.6" LED backlit Panel 60Hz | YES |
 | Graphic | INTEL HD 630 - 2GB VRAM | YES |
 | Graphic | NVIDIA GeForce GTX 1050 | NO |
+| Audio | ALC233(235) | YES |
 | Storage |SSD SATA3,PCIE Gen3X4 SSD,Hard Drives | YES|
 | Optical Drive | Super-Multi DVD | YES |
 | Keyboard | ASUS AURA | 10.14.x |
