@@ -1,5 +1,5 @@
 **Guid for installing macOS (10.12+ up to 10.15.x) on Asus GL553VD**
-![cover](https://raw.githubusercontent.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD/master/cover.jpg)
+![cover](https://raw.githubusercontent.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD/master/img/cover-v2.jpg)
 ----------------------------------------------
 1. After installing open terminal and run this Command=> 
 ```
