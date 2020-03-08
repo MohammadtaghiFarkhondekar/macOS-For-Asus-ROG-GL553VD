@@ -22,6 +22,7 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 
 *Source*
 ----------------------------------------------
+- https://github.com/zxystd/IntelBluetoothFirmware
 - https://github.com/alexandred/VoodooI2C
 - https://github.com/acidanthera
 - https://github.com/RehabMan
