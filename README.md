@@ -1,4 +1,4 @@
-**Guid for installing macOS on Asus GL553VD**
+**Guid for installing macOS on Asus GL553VD-FY485**
 ![cover](https://raw.githubusercontent.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD/master/img/cover-v2.jpg)
 ----------------------------------------------
 1. After installing open terminal and run this Command=> 
@@ -39,8 +39,7 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 
 *Thank a lot :*
 ----------------------------------------------
-- https://www.hackintosh-forum.de/user/38895-anonymous-writer/
-- https://www.hackintosh-forum.de/user/15790-macpeet/
+- https://github.com/andreszerocross
 - https://www.hackintosh-forum.de/
 
 *Source*
