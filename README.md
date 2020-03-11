@@ -26,8 +26,8 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 | Card Reader | RTS5229 PCI Express | YES |
 | WebCam | USB2.0 HD UVC | YES |
 | Networking | Realtek RTL8168H/8111H PCI Express Gigabit Ethernet | YES |
-| Networking | Intel AC7260 | YES! |
-| Bluetooth | Intel AC7260 | YES! |
+| Networking | Intel AC7260 | YES! Coming soon |
+| Bluetooth | Intel AC7260 | YES |
 | Battery | 4 Cells Battery | YES |
 | USB | USB 3.0 Bus | YES |
 | HDMI | INTEL HDMI HD 630 | YES |
