@@ -30,7 +30,7 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 | Bluetooth | Intel AC7260 | YES! |
 | Battery | 4 Cells Battery | YES |
 | USB | USB 3.0 Bus | YES |
-| HDMI | INTEL HDMI HD 630 | HDMI config |
+| HDMI | INTEL HDMI HD 630 | YES |
 | Touchpad | ELAN 1200 | YES |
 
 *video of Installing training and review Mac OS Mojave on ASUS ROG GL553VD*
@@ -39,7 +39,6 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 
 *Thank a lot :*
 ----------------------------------------------
-- https://github.com/andreszerocross
 - https://www.hackintosh-forum.de/
 
 *Source*
