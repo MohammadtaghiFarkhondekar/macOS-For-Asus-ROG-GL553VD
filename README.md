@@ -48,4 +48,4 @@ sudo touch /System/Library/Extensions/ && sudo kextcache -u/
 - https://github.com/acidanthera
 - https://github.com/RehabMan
 - https://github.com/hieplpvip/AsusSMC
-- https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/
+- https://github.com/cholonam/Sinetek-rtsx
